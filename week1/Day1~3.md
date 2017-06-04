@@ -8,6 +8,13 @@
 
 - [sublime]: windows 的同学也是可以打开的，mac的用户也是比较友好的，目前我在windows下给大家演示，同事我也用vmware装了一个虚拟机，如果是windows用户不想太过于麻烦的，也可以直接下载我配置好的虚拟机。
 
+{
+"cmd": ["C:\\Python27/python","-u","$file"],
+"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+"selector": "source.python",
+"encoding": "utf-8",
+}
+
 - [python2.7]: 看视频，很容依旧装好了
 - [github]: 已经放在了网盘里，其实叫git，详情看视频
 
