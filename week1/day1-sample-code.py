@@ -10,7 +10,7 @@
 # 4. print
 def main():
   who = '锅蜀黍的老妈'
-  good_price = 4  #小贩的价格
+  good_price = 6  #小贩的价格
   good_description = "西双版纳大白菜" #小贩的招牌
 
   is_cheap = False #是否便宜
@@ -30,10 +30,7 @@ def main():
     print '她并没有买，扬长而去'
 
   #homework
-  #1. 把锅蜀黍的老妈变成你的老妈;
-  #2. 如果要让老妈买 2 斤大白菜而不是扬长而去，修改哪几个地方可以达到目的？（修改，并跑通）
-  #3. 加分题[选做]：修改程序，小贩的价格每低 1 元，老妈会多买一斤，用程序表达出来
-  #   （ps：第三题错了也没关系，提交上来过后我会讲评）
+  #1. 看 day1-homework.py
 
 # run function
 if __name__ == '__main__':
