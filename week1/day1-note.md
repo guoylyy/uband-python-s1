@@ -16,18 +16,18 @@
 }
 ```
 
-- [python2.7]: 看视频，很容依旧装好了 macOS用户不用装
+- [python2.7]: 看视频
 
 
 ## 基础 - 从故事说到变量
 
 回答下面几个问题
 
-1. what's the meaning of 'number', 'str', 'bool' in python?
+1. what's the meaning of 'number', 'string', 'boolean' in python? 
 
 2. try to describe the meaning of 'if' statement in your mind?
 
-3. Why we need > < ==  >= <= etc...?
+3. Why we need > < ==  >= <= ...etc...?
 
 
 ## 实战 - 做一个计算器吧
@@ -35,7 +35,6 @@
 详情看视频，和代码里的作业
 
 做代码里面规定的作业
-
 
 ## 道理 - 先讲一个段子
 

@@ -4,7 +4,7 @@
 
 
 # For beginner
-# 1. variable - int,num,str,bool
+# 1. variable - num,str,boolean
 # 2. if
 # 3. > < >= <= == 
 # 4. print
@@ -17,6 +17,7 @@ def main():
   reasonable_price = 5 #老妈能接受的最高价格
   buy_amount = 2 #准备买 2 斤
 
+  # 开始你的表演
   # go 我们来走一组
   print "%s上街看到了%s，卖 %d 元/斤" % (who, good_description, good_price)
 
@@ -25,7 +26,7 @@ def main():
     is_cheap = True
     print '她买了 %d 斤' % (buy_amount)
   else:
-    print '她认为贵了'
+    print '她认为贵了 '
     is_cheap = False
     print '她并没有买，扬长而去'
 
