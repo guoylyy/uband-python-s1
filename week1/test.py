@@ -6,12 +6,14 @@
 def main():
   print 'hello shushu'
   print 'hello gugu'
+  who = 'guoshushu'
   if True:
-    print 'hello'
-    if True:
-      print 'hello2'
+  	print 'hello'
+  	print who
+  	if True:
+  		print 'hello2'
   else:
-    print 'fdsfas'
+  	print 'fdsfas'
 
 # run function
 if __name__ == '__main__':

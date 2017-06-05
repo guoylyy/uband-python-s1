@@ -2,14 +2,13 @@
 # -*- coding: utf-8 -*-
 # @author: Guoshushu
 
-
 # For beginner
 # 1. variable - num,str,boolean
 # 2. if
 # 3. > < >= <= == 
 # 4. print
 def main():
-  who = '锅蜀黍的老妈'
+  who = 'xiao的老妈 '
   good_price = 6  #小贩的价格
   good_description = "西双版纳大白菜" #小贩的招牌
 
