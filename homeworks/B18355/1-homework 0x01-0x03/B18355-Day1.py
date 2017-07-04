@@ -36,7 +36,7 @@ def main():
 		buy_amount = buy_amount + (resonable_price - good_price)
 		if buy_amount > 4:
 			buy_amount = 4
-		print '她买了 %d 斤' % (buy_amount)
+		print ' 她买了 %d 斤' % (buy_amount)
 	else:
 		print '她认为贵了'
 		is_cheap = False
