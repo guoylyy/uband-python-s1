@@ -1,6 +1,5 @@
-
 def main():
-	print 'gogo'
+	print "gogo"
 
 if __name__ == '__main__':
-	main()
+	main()	
