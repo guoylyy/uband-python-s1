@@ -3,7 +3,7 @@
 # @author: fangcheng
 
 def main():
-	print 'gogo d '
+  print 'gogo d '
 
 if __name__ == '__main__':
-	main()
+  main()
