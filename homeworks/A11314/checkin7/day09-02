@@ -1,0 +1,44 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# @author: xxx
+
+#
+# 老爸在看一本英文书，他旁边有一个词典，但是只有三个词的解释
+# abandon “to give up to the control or influence of another person or agent”
+# abase  “to lower in rank, office, prestige, or esteem ”
+# abash  “to destroy the self-possession or self-confidence of ”
+# 
+# 老爸先查了一个单词 'etiquette' 没有查到
+# 老爸怒了，把含有 'abandon' 一页的单词撕掉了
+# 然后老爸又差了一个单词 'abase' 得到了解释
+# 老爸很开心，有把 'abandon' 加入到了字典里
+
+def main():
+ 	dictionary={
+			 	"abandon":"to give up to the control or influence of another person or agent",
+			 	'abase':'to lower in rank, office, prestige, or esteem',
+			 	'abash':'to destroy the self-possession or self-confidence of'
+			 	}
+	who = "dady"
+	print "%s在看一本英文书，他旁边有一个词典，但是只有%d个词的解释" %(who,len(dictionary))
+	print "%s先查了一个单词%s "%(who,"etiquette")
+	if dictionary.has_key('etiquette') == False:
+		print "没有查到！"
+		print "%s怒了，把含有‘abandon’一页的单词撕了……"%(who)
+		del dictionary['abandon']
+	else:
+		pass
+	print len(dictionary)
+	print "%s又查了一个单词%s" %(who,'abase')
+
+	if dictionary.has_key('abase'):
+		print "查到了！"
+		print "%s很开心，把‘abandon’一页加到了字典里。" %(who)
+		dictionary['abandon']='to give up to the control or influence of another person or agent'
+	else:
+		pass
+	print len(dictionary)
+
+
+if __name__ == '__main__':
+	main()
