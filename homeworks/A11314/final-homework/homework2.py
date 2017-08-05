@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
 #!usr/bin/python
+# -*- coding: utf-8 -*-
 
 import codecs,sys
 import os,csv,re
@@ -7,10 +7,11 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 def readfile(PATH,filenames):
+	word_list=[]
 	for filename in filenames:
 		file = codecs.open(PATH+"/"+filename,'r')
 		lines = file.readlines()
-		word_list=[]
+
 		for line in lines:
 			line=line.strip()
 			line=line.upper()
@@ -23,26 +24,24 @@ def readfile(PATH,filenames):
 def word_sum(word_list):
 	word_sum={}
 	for word in word_list:
-		for key in word_sum:
-			if word == key:
-				word_sum[key]+=1
-				break 
+		if word_sum.has_key(word):
+			word_sum[word]+=1
 		else:
 			word_sum[word]=1
 	return word_sum
+
 
 def main():
 	PATH = "data2"
 	for root,dirs,files in os.walk(PATH):
 		words = readfile(PATH,files)
-
+	print "获取到的单词共%d个" %len(words)
 	word = word_sum(words)
 	word = sorted(word.iteritems(),key=lambda x:x[1],reverse = True)
-	csv_path=file("output/test.csv",'wb')
+	csv_path=file("output/test2.csv",'wb')
 	csvfile=csv.writer(csv_path)
 	csvfile.writerow(["word","total"])
 	csvfile.writerows(word)	
 
 if __name__ == "__main__":
     main()
-
