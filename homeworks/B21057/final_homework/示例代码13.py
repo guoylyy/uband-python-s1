@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # 读取文件~~~~~~~~放到主程序里面运行
+# dsadada
 
 import codecs
 import os
