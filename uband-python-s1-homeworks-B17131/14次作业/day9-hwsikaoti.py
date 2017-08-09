@@ -79,11 +79,11 @@ if __name__ == '__main__':
 	self-practice()
 
 	#得到结果：
-	#雨眠正在看傲慢与偏见
-	#雨眠没有查到impertinnence的意思
-	#雨眠气得撕毁了singular那一页
-	#雨眠查到了thereby:because of that
-	#雨眠很开心的把singular那一页又贴上
+	#眠正在看傲慢与偏见
+	#没有查到impertinnence的意思
+	#气得撕毁了singular那一页
+	#查到了thereby:because of that
+	#很开心的把singular那一页又贴上
 
 
 
