@@ -1,0 +1,9 @@
+1. what's the meaning of 'number', 'string', 'boolean' in python? 
+A：number数字量；string字符串；boolean布尔量，True或者False
+
+2. try to describe the meaning of 'if' statement in your mind?
+A：‘if’ is used when you have to firstly judge whether you satisfy certain condition, and then to decide whether to go on or choose another solution.
+
+3. Why we need > < ==  >= <= ...etc...?
+A: Because sometimes we need to make comparison between two certain variables to decide which way we are gonna to choose.
+新增一个max_amount = 4,用来表示最多买4斤。通过if 语句将实际购买量与4对比。
