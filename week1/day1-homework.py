@@ -10,7 +10,9 @@
 # 6. xxx 还有两天的作业明天和后天放出来，属于阅读理解 + 练习深化
 #   （ps：第 5 题错了也没关系，提交上来过后我会讲评）
 def main():
+  aa = '1'
   print 'test'
+  print 'runrnu'
   pass
 
 if __name__ == '__main__':
