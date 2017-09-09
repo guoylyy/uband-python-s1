@@ -1,0 +1,13 @@
+回答下面几个问题
+
+1. what's the meaning of 'number', 'string', 'boolean' in python? 
+number 数字类型 可以用来计算
+string 字符类型 
+boolean 布朗型 只有两个值 ture 和 false
+
+
+2. try to describe the meaning of 'if' statement in your mind?
+当出现满足某条件才执行某项任务时用if
+
+3. Why we need > < ==  >= <= ...etc...?
+使用条件语句时一般会需要判断是否满足条件，比如某值是否满足某个范围
