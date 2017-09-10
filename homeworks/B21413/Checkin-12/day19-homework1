@@ -1,0 +1,39 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*
+
+class Horse():
+	def __init__(self,name,location):
+		self.name = name
+		self.location = location
+
+	def run(self):
+		print '来自 %s 的马 %s 开始跑起来了' % (self.location,self.name)
+
+class Koala():
+	def __init__(self,name,location):
+		self.name = name
+		self.location = location
+
+	def climb(self):
+		print '来自 %s 的考拉 %s 开始疯狂地爬上了树' % (self.location, self.name)
+
+	def sleep(self):
+		print '来自 %s 的考拉 %s 一上到树就睡着了' % (self.location, self.name)
+
+	def study(self):
+		print '来自 %s 的考拉 %s 选择不睡觉，要学习' % (self.location, self.name)	
+
+
+def main():
+	alex = Horse('alex','paris')
+	alex.run()
+	jerald = Koala('jerald','champagene')
+	jerald.climb()
+	jerald.sleep()
+	zack = Koala('zack','manchester')
+	zack.climb()
+	zack.study()
+
+
+if __name__ == '__main__':
+  main()
